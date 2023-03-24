@@ -1,0 +1,18 @@
+ul {
+    background-color: rgb(226, 226, 226);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: fixed;
+    text-align: center;
+    float: right; 
+    padding: 20px;
+    text-decoration: none;
+    background-color: rgb(232, 252, 249);
+    border-right: 1px solid black;
+}
+
