@@ -1,18 +1,49 @@
-ul {
-    background-color: rgb(226, 226, 226);
+* {
+    font-family:'Times New Roman', Times, serif;
+}
+
+header {
+    text-align: center;
+}
+
+.nav {
+    background-color: rgb(187, 253, 255);
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
 }
 
-li a {
-    display: fixed;
+.nav li a {
     text-align: center;
-    float: right; 
-    padding: 20px;
+    float: right;
+    padding: 15px;
     text-decoration: none;
-    background-color: rgb(232, 252, 249);
-    border-right: 1px solid black;
+    font-size: larger;
+    color: black;
+
 }
 
+li a:hover {
+    background-color: rgba(141, 141, 141, 0.322);
+}
+
+.app-grid {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.app-grid li {
+    margin: 20px;
+    
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+}
