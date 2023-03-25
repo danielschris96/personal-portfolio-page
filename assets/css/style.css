@@ -4,6 +4,8 @@
 
 body {
     background-color: var(--blue1);
+   
+
 }
 :root {
 --light: #e0e1dd;
@@ -19,6 +21,8 @@ header {
     padding-left: 5%;
     border: 1px solid var(--blue4);
     background-color: var(--blue2);
+    flex-grow: 0 0 0;
+
 }
 
 h1 {
@@ -52,6 +56,11 @@ color: var(--light);
 
 li a:hover {
     background-color: var(--blue2);
+}
+
+#grid {
+    min-height: 90vh;
+    display: grid;
 }
 
 #about {
@@ -89,9 +98,11 @@ li a:hover {
 
 footer {
     text-align: center;
-    margin-top: 10%;
-    position: relative;
+    margin-top: auto;
+    position: relative 0vh;
     bottom: 0;
+    grid-row: auto;
+  
 }
 
 hr {
