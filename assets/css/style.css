@@ -129,6 +129,8 @@ hr {
     color: var(--light);
     margin-bottom: 0;
     font-weight: lighter;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #applications img:hover {
