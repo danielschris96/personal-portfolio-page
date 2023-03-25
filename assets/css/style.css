@@ -70,6 +70,8 @@ li a:hover {
 #about p {
     margin-left: 25%;
     margin-right: 25%;
+    font-size: larger;
+    font-weight: bolder;
 }
 
 #about img {
@@ -115,3 +117,16 @@ hr {
     text-align: left;
     margin-left: 10%;
 }
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: #778da9d5;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: var(--blue2);
+    }
+}
+
