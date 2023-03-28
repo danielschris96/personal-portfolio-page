@@ -4,8 +4,9 @@
 
 body {
     background-color: var(--blue1);
-   
-
+    min-width: 600px;
+    width: auto !important;
+    width: 600px;
 }
 :root {
 --light: #e0e1dd;
@@ -84,21 +85,36 @@ li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* margin-left: 10px;
-    margin-right: 10px; */
     position: relative;
-    right: 20px; 
 }
-#app1 {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-
-.app-grid li {
-    margin: 3%;
+.apptitle1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
     
+}
+
+
+.apptitle {
+    margin: 3%;
+    position: relative;
+    text-align: center; 
+    color: var(--blue4);
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0px;
+    left: 85px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.text-overlay1 {
+    position: absolute;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
 }
 
 footer {
@@ -134,14 +150,14 @@ hr {
 }
 
 #applications img:hover {
-box-shadow: 5px 5px 5px var(--blue2);
+box-shadow: 0px 0px 20px var(--blue3);
 }
 
 @media screen and (min-width: 992px) {
     body {
         background-color: #778da9d5;
     }
-    .app-grid li {
+    .apptitle {
         margin: 1%;
     }
 }
