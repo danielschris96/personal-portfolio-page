@@ -11,7 +11,7 @@ https://danielschris96.github.io/personal-portfolio-page/
 
 There are four applications shown on the page. Selecting an application links you to the application. There is a contact section that can be used to call, email, or visit my other public profiles.
 
-<img src = "./assets/images/page-screenshot.jpg">
+<img src="assets/images/page-screenshot.jpg">
 
 ## Credits
 
